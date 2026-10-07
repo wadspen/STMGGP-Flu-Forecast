@@ -1,0 +1,26 @@
+
+# R files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+.Renviron
+*.pem
+*.key
+
+# Generated output
+output/
+figures/
+models/
+*.rds
+
+# Temporary files
+*.tmp
+*.log
