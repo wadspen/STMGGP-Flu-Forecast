@@ -7,8 +7,6 @@ R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
 Type 'license()' or 'licence()' for distribution details.
 
-  Natural language support but running in an English locale
-
 R is a collaborative project with many contributors.
 Type 'contributors()' for more information and
 'citation()' on how to cite R or R packages in publications.
@@ -107,57 +105,67 @@ This is cmdstanr version 0.9.0
 Running MCMC with 1 chain...
 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: cholesky_decompose: Matrix m is not positive definite (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 208, column 2 to column 53)
+Chain 1 Exception: cholesky_decompose: A is not symmetric. A[1,2] = -nan, but A[2,1] = -nan (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 211, column 2 to column 55)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: cholesky_decompose: Matrix m is not positive definite (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 208, column 2 to column 53)
+Chain 1 Exception: cholesky_decompose: A is not symmetric. A[1,2] = -nan, but A[2,1] = -nan (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 211, column 2 to column 55)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: cholesky_decompose: Matrix m is not positive definite (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 208, column 2 to column 53)
+Chain 1 Exception: cholesky_decompose: A is not symmetric. A[1,2] = -nan, but A[2,1] = -nan (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 211, column 2 to column 55)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: cholesky_decompose: Matrix m is not positive definite (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 208, column 2 to column 53)
+Chain 1 Exception: cholesky_decompose: A is not symmetric. A[1,2] = -nan, but A[2,1] = -nan (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 211, column 2 to column 55)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: cholesky_decompose: Matrix m is not positive definite (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 208, column 2 to column 53)
+Chain 1 Exception: cholesky_decompose: A is not symmetric. A[1,2] = -nan, but A[2,1] = -nan (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 211, column 2 to column 55)
+Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+Chain 1 
+Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Chain 1 Exception: cholesky_decompose: A is not symmetric. A[1,2] = -nan, but A[2,1] = -nan (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 211, column 2 to column 55)
+Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+Chain 1 
+Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Chain 1 Exception: lkj_corr_cholesky_lpdf: Random variable[3] is 0, but must be positive! (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 289, column 2 to column 31)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Iteration:    1 / 2000 [  0%]  (Warmup) 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: lkj_corr_cholesky_lpdf: Random variable[3] is 0, but must be positive! (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 289, column 2 to column 31)
+Chain 1 Exception: lkj_corr_cholesky_lpdf: Random variable[4] is 0, but must be positive! (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 289, column 2 to column 31)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: lkj_corr_cholesky_lpdf: Random variable[3] is 0, but must be positive! (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 289, column 2 to column 31)
+Chain 1 Exception: lkj_corr_cholesky_lpdf: Random variable[2] is 0, but must be positive! (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 289, column 2 to column 31)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: cholesky_decompose: Matrix m is not positive definite (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 208, column 2 to column 53)
+Chain 1 Exception: lkj_corr_cholesky_lpdf: Random variable[2] is 0, but must be positive! (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 289, column 2 to column 31)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: cholesky_decompose: Matrix m is not positive definite (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 208, column 2 to column 53)
-Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
-Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
-Chain 1 
-Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
-Chain 1 Exception: cholesky_decompose: Matrix m is not positive definite (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 208, column 2 to column 53)
+Chain 1 Exception: lkj_corr_cholesky_lpdf: Random variable[2] is 0, but must be positive! (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 289, column 2 to column 31)
 Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
 Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
 Chain 1 
 Chain 1 Iteration:   10 / 2000 [  0%]  (Warmup) 
+Chain 1 Informational Message: The current Metropolis proposal is about to be rejected because of the following issue:
+Chain 1 Exception: lkj_corr_cholesky_lpdf: Random variable[4] is 0, but must be positive! (in '/tmp/RtmpFKUw1i/model-17dca6700f492a.stan', line 289, column 2 to column 31)
+Chain 1 If this warning occurs sporadically, such as for highly constrained variable types like covariance matrices, then the sampler is fine,
+Chain 1 but if this warning occurs often then your model may be either severely ill-conditioned or misspecified.
+Chain 1 
 Chain 1 Iteration:   20 / 2000 [  1%]  (Warmup) 
 Chain 1 Iteration:   30 / 2000 [  1%]  (Warmup) 
 Chain 1 Iteration:   40 / 2000 [  2%]  (Warmup) 
@@ -358,7 +366,7 @@ Chain 1 Iteration: 1970 / 2000 [ 98%]  (Sampling)
 Chain 1 Iteration: 1980 / 2000 [ 99%]  (Sampling) 
 Chain 1 Iteration: 1990 / 2000 [ 99%]  (Sampling) 
 Chain 1 Iteration: 2000 / 2000 [100%]  (Sampling) 
-Chain 1 finished in 20836.1 seconds.
+Chain 1 finished in 16738.2 seconds.
 Warning: 1000 of 1000 (100.0%) transitions hit the maximum treedepth limit of 10.
 See https://mc-stan.org/misc/warnings for details.
 
