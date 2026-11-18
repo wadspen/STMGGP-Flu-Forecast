@@ -76,10 +76,10 @@ locations <- dat |>
 
 
 
-rec_file <- paste0("./", team_name, "/", ref_date, "-", team_name, ".csv")
+rec_file <- paste0("./forecasts/trunc_week/", ref_date, "-", team_name, ".csv")
 write.csv(forecasts, rec_file, row.names = FALSE)
 
-draws_file <- paste0("./forecast_draws_tw/", ref_date, "-", team_name, ".csv")
+draws_file <- paste0("./forecast_draws/trunc_week/", ref_date, "-", team_name, ".csv")
 write.csv(forc_grid_preds, draws_file, row.names = FALSE)
 
 
@@ -93,7 +93,7 @@ write.csv(forc_grid_preds, draws_file, row.names = FALSE)
 
 
 
-image_file <- paste0("./forecast_plots_tw/", ref_date, "-", team_name, ".pdf")
+image_file <- paste0("./forecast_plots/trunc_week/", ref_date, "-", team_name, ".pdf")
 pdf(
   file = image_file,
   width = 16,
@@ -180,7 +180,7 @@ for (l in 1:nrow(locations)) {
 
 dev.off()
 
-# DO NOT SUBMIT NEG_BIN PREDICTIONS (at least for now)
+# DO NOT SUBMIT TRUNC_WEEK PREDICTIONS (at least for now)
 # library(hubValidations)
 # hubValidations::validate_model_metadata(
 #     hub_path="../../FluSight-forecast-hub/",

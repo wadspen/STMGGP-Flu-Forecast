@@ -76,10 +76,12 @@ locations <- dat |>
 
 
 
-rec_file <- paste0("./", team_name, "/", ref_date, "-", team_name, ".csv")
+# rec_file <- paste0("./", team_name, "/", ref_date, "-", team_name, ".csv")
+rec_file <- paste0("./forecasts/original/", ref_date, "-", team_name, ".csv")
 write.csv(forecasts, rec_file, row.names = FALSE)
 
-draws_file <- paste0("./forecast_draws/", ref_date, "-", team_name, ".csv")
+# draws_file <- paste0("./forecast_draws/", ref_date, "-", team_name, ".csv")
+draws_file <- paste0("./forecast_draws/original/", ref_date, "-", team_name, ".csv")
 write.csv(forc_grid_preds, draws_file, row.names = FALSE)
 
 
@@ -91,8 +93,8 @@ submission_file <- paste0("../../FluSight-forecast-hub/model-output/",
 write.csv(forecasts, submission_file, row.names = FALSE)
 
 
-
-image_file <- paste0("./forecast_plots/", ref_date, "-", team_name, ".pdf")
+# image_file <- paste0("./forecast_plots/", ref_date, "-", team_name, ".pdf")
+image_file <- paste0("./forecast_plots/original/", ref_date, "-", team_name, ".pdf")
 pdf(
   file = image_file,
   width = 16,
